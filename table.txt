@@ -1,0 +1,11 @@
+CREATE TABLE `employee` (
+  `EmpId` int NOT NULL AUTO_INCREMENT,
+  `EmpName` varchar(60) NOT NULL,
+  `Email` varchar(45) NOT NULL,
+  `EmpCode` varchar(45) NOT NULL,
+  `Remark` longtext,
+  PRIMARY KEY (`EmpId`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+INSERT INTO `basket`.`employee` (`EmpId`, `EmpName`, `Email`, `EmpCode`, `Remark`) VALUES ('1', 'Manoj', 'manoj@gmail.com', '223', 'manoj');
